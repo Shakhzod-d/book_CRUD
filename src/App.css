@@ -1,8 +1,6 @@
+html,
 body {
   margin: 0;
-  font-family: "Inter";
-  background-color: #e7f6ff;
-}
-.app_container {
-  padding: 2rem 0;
+  padding: 0;
+  box-sizing: border-box;
 }
