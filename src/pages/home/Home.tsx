@@ -175,7 +175,7 @@ export const Home = () => {
           >
             {bookStatusesArr?.map((statusObj) => {
               const { id, title, statusNumber, description } = statusObj;
-              let bookObj = JSON.parse(localStorage.getItem("bookObj") || "");
+              let bookObj = JSON.parse(localStorage.getItem("bookObj") as any);
               return (
                 <Button
                   disabled={bookObj?.status === statusNumber}
