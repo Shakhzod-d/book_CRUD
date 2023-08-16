@@ -1,7 +1,7 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 
 import { signupUrl, booksUrl, mySelfUrl } from "../../api";
-import { ApiResponse } from "../../pages/login/types";
+import { ApiResponse } from "../../pages/LoginPage/types";
 import {
   IDeleteBookObj,
   IEditBook,
