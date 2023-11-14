@@ -1,4 +1,4 @@
-export const baseUrl = `https://no23.lavina.tech`;
+export const baseUrl = `https://0001.uz`;
 
 export const signupUrl = `${baseUrl}/signup`;
 export const booksUrl = `${baseUrl}/books`;
